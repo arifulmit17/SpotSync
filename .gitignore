@@ -1,0 +1,44 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+*.test
+
+# Go build output
+bin/
+dist/
+build/
+
+# Coverage
+*.coverprofile
+coverage.out
+
+# Dependency directories (rarely used)
+vendor/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Air (hot reload)
+.air.toml
+tmp/
+
+# Logs
+*.log
+
+# Generated files
+*.swp
+*.swo
