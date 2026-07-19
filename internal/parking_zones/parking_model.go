@@ -7,4 +7,5 @@ type parking struct {
 	Location       int     `json:"location"`
 	Price_per_hour float64 `json:"price_per_hour" gorm:"check:price_per_hour > 0"`
 	Created_at     string  `json:"created_at"`
+	Updated_at     string  `json:"updated_at"`
 }
